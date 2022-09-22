@@ -1,0 +1,39 @@
+.container {
+    background-color: #0dcaf092;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: auto;
+    padding: 100px;
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    margin-left: auto;
+    margin-right: auto;  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+
+.from1, .from2, .from3{
+    background-color: #f8f9fa;
+    border-radius: 10px;
+}
+
+.jurus{
+    border-radius: 5px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+ button[type=submit] {
+    background-color: #f8f9fa;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+  }
+  
